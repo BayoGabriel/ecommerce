@@ -1,0 +1,37 @@
+.newarr{
+    color: rgb(154, 133, 80);
+    font-size: 13px;
+    text-align: left;
+    letter-spacing: 4px;
+}
+.newarr1{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: left;
+    color: #000;
+    letter-spacing: 2px;
+}
+.newarr2{
+    text-align: left;
+    font-size: 10px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 2px;
+    letter-spacing: 3px;
+}
+.newarra{
+    text-decoration: none;
+}
+@media screen and (max-width: 480px) {
+    .newarr{
+        font-size: 6px;
+    }
+    .newarr1{
+        font-size: 15px;
+    }
+    .newarr2{
+        font-size: 5px;
+    }
+}

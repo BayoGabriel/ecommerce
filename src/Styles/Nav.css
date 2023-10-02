@@ -1,0 +1,33 @@
+.home2{
+    font-size: 22px !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    color: white !important;
+}
+.logo{
+    width: 30px;
+}
+.love{
+    width: 18px;
+}
+.badg{
+    height: fit-content;
+}
+.pii{
+    background-color: rgb(100, 93, 93);
+}
+.momq{
+    width: 50%;
+    margin-left: 50%;
+}
+.momq2{
+    width: 50%;
+}
+@media screen and (max-width: 480px) {
+    .momq{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .momq2{
+        width: 100%;
+    }
+}

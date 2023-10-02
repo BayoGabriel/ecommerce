@@ -1,0 +1,76 @@
+.compp1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 55px;
+}
+.cobor{
+    border-right: solid 3px black;
+    font-weight: 700;
+    font-size: 15px;
+    width: 12%;
+}
+.pdcounter{
+    margin-top: 30px;
+}
+.coic{
+    transform: translate(-12px, -31px);
+}
+.coic2{
+    transform: translate(-12px, -43px);
+}
+.anbt44{
+    border: solid black 1px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    transition: all 1s ease;
+}
+.anbt55{
+    border: solid black 1px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    transition: all 1s ease;
+}
+.cabi{
+    background-image: linear-gradient(to right, yellow, 40%, orange);
+    width: 16%;
+}
+.cabi2{
+    background-color: rgb(232, 232, 232);
+    width: 75%;
+}
+.cfs{
+    font-weight: lighter;
+    font-size: 15px;
+}
+.cfs span{
+    font-weight: 600;
+    font-size: 16px;
+}
+.pdanbt1{
+    width: 50%;
+    border: solid black 1px;
+    padding: 18px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    transition: all 1s ease;
+}
+.pdanbt21{
+    width: 50%;
+    border: solid black 1px;
+    padding: 18px;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    transition: all 1s ease;
+}

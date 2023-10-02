@@ -1,0 +1,33 @@
+.smowi{
+    width: 80%;
+    padding-top: 70px;
+}
+.smop1{
+    font-size: 14px;
+    color: rgb(125, 125, 125);
+    letter-spacing: 2px;
+}
+.smoin{
+    width: 70%;
+    border: none;
+    border-bottom: solid 2px rgb(146, 146, 146);
+    margin-top: 30px;
+    outline: none;
+    height: 40px;
+}
+.smoin::placeholder{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+}
+.smoin:focus{
+    border-bottom: solid 2px black;
+}
+@media screen and (max-width: 480px) {
+    .smowi{
+        width: 100%;
+    }
+    .smoin{
+        width: 100%;
+    }
+}

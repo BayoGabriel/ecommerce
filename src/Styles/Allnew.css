@@ -1,0 +1,33 @@
+.alln{
+    font-size: 45px;
+    font-weight: 500;
+}
+.fah{
+    font-weight: lighter;
+    font-size: 20px;
+    color: rgb(97, 97, 97);
+}
+.anbt{
+    border: solid black 2px;
+    padding: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    transition: all 1s ease;
+}
+.anbt2{
+    border: solid black 2px;
+    padding: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    transition: all 1s ease;
+}

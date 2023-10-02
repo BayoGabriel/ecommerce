@@ -1,0 +1,21 @@
+.white{
+    height: 20px;
+}
+.black{
+    height: 3px;
+    width: 98vw;
+}
+.space{
+    width: 1px;
+    height: 480px;
+    background-color: transparent;
+    float: left;
+}
+@media screen and (max-width: 480px) {
+    .space{
+        display: none;
+    }
+    .white{
+        display: none;
+    }
+}

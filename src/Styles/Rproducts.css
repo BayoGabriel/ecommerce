@@ -1,0 +1,77 @@
+.repr{
+    font-size: 30px;
+    font-weight: 600;
+}
+.mrpr{
+    padding-top: 70px;
+}
+.repo{
+    font-size: 22px;
+    color: rgb(93, 92, 92);
+    font-weight: 100;
+}
+.overla2{
+    position: absolute;
+    /* top: 60%; */
+    right: 0;
+    bottom: 7%;
+    left: 0;
+}
+.star{
+    color: rgb(255, 187, 0);
+}
+.price{
+    height: inherit;
+    margin: auto;
+    font-weight: 600;
+}
+.timg{
+    width: 16px;
+}
+.ftd{
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .timg:hover{
+        animation: ple infinite 2s linear;
+    }
+}
+@keyframes ple {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.atc:hover{
+    font-size: 13px;
+}
+.tab{
+    visibility: hidden;
+    transition: visibility 5s, max-height 5s;
+    max-height: 0;
+    overflow: hidden;
+}
+.car:hover .tab{
+    visibility: visible;
+    max-height: 900px;
+}
+@media screen and (max-width: 480px) {
+    .tab{
+        visibility: visible;
+        max-height: inherit;
+    }
+    .smm{
+        display: none;
+    }
+    .overla2{
+        margin-left: 10px;
+    }
+    .repo{
+        font-size: 18px;
+    }
+}

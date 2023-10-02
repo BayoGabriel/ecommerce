@@ -1,0 +1,57 @@
+.vbac{
+    position: relative;
+}
+.vover{
+    position: absolute;
+    top: 10%;
+    right: 0;
+    bottom: 0;
+    left: 10%;
+}
+.vbimg{
+    height: 100%;
+    width: 100%;
+    transition: all 2s ease;
+}
+.vimc{
+    height: fit-content;
+    width: 100%;
+    overflow: hidden;
+}
+.vimc:hover .vbimg{
+    transform: scale(1.2);
+}
+.vvu{
+    font-size: 40px;
+}
+.hof{
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    line-height: 40px;
+    color: rgba(128, 128, 128, 0.692);
+}
+.vupt{
+    padding-top: 100px;
+}
+.vua{
+    font-size: 12.5px;
+    font-weight: 600;
+    color: black;
+    text-underline-offset: 7px;
+}
+.vuaig{
+    font-size: 12.5px;
+    font-weight: 600;
+    text-underline-offset: 7px;
+    color: rgb(79, 78, 78);
+}
+@media screen and (max-width: 480px) {
+    .hof{
+        font-size: 16px;
+        font-weight: lighter;
+        letter-spacing: 2px;
+        line-height: normal;
+        color: rgba(128, 128, 128, 0.692);
+    }
+}

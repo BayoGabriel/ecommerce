@@ -1,0 +1,66 @@
+.cbgi{
+    width: 100%;
+    height: 100vh;
+}
+.conta{
+    padding-top: 130px;
+    padding-left: 76px !important;
+}
+.cop1{
+    font-weight: 700;
+    font-size: 50px;
+}
+.cop2{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0%;
+    padding: 0%;
+}
+.cop3{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #000;
+    text-decoration: none;
+}
+.cobd{
+    background-color: #000;
+    height: 5px;
+    width: 15%;
+}
+.cindv{
+    width: 50%;
+}
+.cindv input{
+    width: 100%;
+    height: 48px;
+    border: solid rgb(215, 214, 214) 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cindv p {
+    font-size: 17px;
+    font-weight: 600;
+}
+.cota{
+    min-height: 280px;
+    width: 100%;
+    border: solid rgb(215, 214, 214) 2px;
+    padding: 10px;
+}
+.cotap{
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.cmarg{
+    /* margin-left: 25px; */
+}
+@media screen and (max-width: 480px) {
+    .cbgi{
+        height: 35vh;
+    }
+    .conta{
+        padding-top: 40px;
+        padding-left: 12px !important;
+    }
+}

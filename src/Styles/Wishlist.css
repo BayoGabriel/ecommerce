@@ -1,0 +1,25 @@
+.whead{
+    background-color: rgb(246, 246, 246);
+    padding-bottom: 70px;
+}
+.wtbor{
+    border-bottom: solid 4px black;
+}
+.wtpa{
+    font-size: 22px;
+}
+.wtcatch{
+    text-align: end;
+    font-weight: lighter;
+}
+.wtcatch span{
+    font-weight: 600;
+}
+.wtapad{
+    padding-bottom: 130px;
+}
+@media screen and (max-width: 480px) {
+    .wtcatch{
+        text-align: center;
+    }
+}

@@ -1,0 +1,55 @@
+.p8img{
+    height: 320px;
+    width: 93%;
+    overflow: hidden;
+}
+.overla{
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    bottom: 15%;
+    left: 0;
+}
+.car{
+    position: relative;
+    display: flex;
+    justify-content: flex-end; 
+    word-wrap: break-word;
+}
+.car:hover .lir{
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+.eigh{
+    font-size: 14px;
+    font-weight: lighter;
+    color: rgb(40, 40, 40);
+}
+.lir{
+    font-size: 22px;
+    font-weight: 600;
+}
+@media screen and (max-width: 480px) {
+    .car{
+        margin: 10px;
+    }
+    .p8img{
+        height: 380px;
+    }
+    .p8img{
+        height: 320px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .overla{
+        margin-left: 10px;
+    }
+}
+.imgcon{
+    height: 100%;
+    width: 100%;
+    transition: all 2s ease;
+}
+.p8img:hover .imgcon{
+    transform: scale(1.2);
+}

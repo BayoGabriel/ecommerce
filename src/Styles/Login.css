@@ -1,0 +1,83 @@
+.lcindv{
+    padding-top: 20px;
+}
+.lcindv input{
+    width: 100%;
+    height: 48px;
+    border: solid rgb(215, 214, 214) 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.lcindv p {
+    font-size: 17px;
+    font-weight: 600;
+}
+.lcindv sup{
+    color: red;
+    font-size: 18px;
+}
+.loform{
+    width: 35%;
+    margin: auto;
+}
+.anbt9{
+    width: 100%;
+    border: solid black 2px;
+    padding: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    transition: all 1s ease;
+}
+.anbt29{
+    width: 100%;
+    border: solid black 2px;
+    padding: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    transition: all 1s ease;
+}
+.anbt3{
+    width: 100%;
+    border: solid rgb(156, 154, 154) 1px;
+    padding: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    transition: all 1s ease;
+}
+.malob{
+    font-size: 22px;
+    font-weight: lighter;
+    text-align: center;
+}
+.maoh{
+    font-weight: 600;
+    font-size: 40px;
+}
+.yhpaoy{
+    font-weight: lighter;
+    font-size: 22px;
+}
+.mavad{
+    font-weight: 600;
+    font-size: 19px;
+}
+@media screen and (max-width: 480px) {
+    .loform{
+        width: 100%;
+    }
+}
